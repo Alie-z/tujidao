@@ -28,6 +28,7 @@
     "@koa/router": "^10.1.1",
     "@vue/server-renderer": "^3.2.31",
     "@vueuse/core": "^8.2.5",
+    "cheerio": "1.0.0-rc.12",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-connect": "^2.1.0",
@@ -37,6 +38,7 @@
     "koa-send": "^5.0.1",
     "koa-views": "^8.0.0",
     "pinia": "^2.0.13",
+    "request": "^2.88.2",
     "vant": "^3.6.4",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14"

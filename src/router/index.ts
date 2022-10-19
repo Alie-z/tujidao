@@ -21,6 +21,16 @@ export const createRouter = (type: 'client' | 'server'): Router =>
                 component: () => import('@/pages/index.vue')
             },
             {
+                path: '/search-content',
+                name: 'searchContent',
+                meta: {
+                    title: '搜索结果',
+                    keepAlive: true,
+                    requireAuth: true
+                },
+                component: () => import('@/pages/searchContent.vue')
+            },
+            {
                 path: '/index',
                 name: 'demo-index',
                 meta: {
